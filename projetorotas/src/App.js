@@ -1,8 +1,12 @@
+import Header from "./Componenys/Header/Index.js";
+import RoutesApp from "./Router";
+
 function App() {
   return (
-    <div>
-<p>Caguei</p>
-    </div>
+    <>
+      <Header /> <br />
+      <RoutesApp />;
+    </>
   );
 }
 

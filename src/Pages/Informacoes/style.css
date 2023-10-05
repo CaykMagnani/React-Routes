@@ -1,0 +1,16 @@
+.mapContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .mapFilho {
+    align-items: flex-end;
+    width: 60%; /* Tamanho desejado para o quadrado do mapa */
+    height: 80%; /* Tamanho desejado para o quadrado do mapa */
+  }
+  .mapFilho2 {
+    flex: 1; /* Ocupa todo o espaço restante na largura */
+  }
+
+  

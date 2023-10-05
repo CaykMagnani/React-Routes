@@ -1,22 +1,29 @@
+import React from "react";
 import { useParams } from "react-router-dom";
 import './style.css';
-import Mapa from "./Mapa";
+import SimpleMap from "./Mapa";
 
 function Contato() {
+  const { id } = useParams();
 
-    const { id }= useParams();
+  if (id === 'Contato') {
+    return (
+      <div className="mapContainer"> {/* Usando a classe mapContainer */}
+        <div className="mapFilho"> {/* Usando a classe mapFilho */}
+          <SimpleMap />
+        </div>
+        <div className="mapFilho2">
+          
+          <h1>Titulo Do meu ECOMMERCE</h1> <br />
+          <p>CNPJ DO MEU ECOMMERCE</p> <br />
+          <p>EMAIL DO MEU ECOMMERCE</p> <br />
 
-    if (id === 'Contato'){
-        <div className="mapClass">
-        <Mapa
-          googleMapURL={`https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&v=3.exp&libraries=geometry,drawing,places`}
-          loadingElement={<div style={{ height: `100%` }} />}
-          containerElement={<div style={{ height: `400px` }} />}
-          mapElement={<div style={{ height: `100%` }} />}
-        />
+        </div>
       </div>
-    }
+    );
+  }
 
+  return null;
 }
 
 export default Contato;

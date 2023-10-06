@@ -5,13 +5,13 @@ function Header() {
   return (
     <header>
       
-      <h1>FATEC franca</h1>
+      <h1>FATEC Franca</h1>
 
       <div className='menu'>
 
-      <Link to="/Sobre">Sobre</Link>
-      <Link to="/">Home</Link>
-      <Link to="/informacoes/Contato">Contato</Link>
+      <Link className='linkSemSublinhado' to="/Sobre">Sobre</Link>
+      <Link className='linkSemSublinhado' to="/">Home</Link>
+      <Link className='linkSemSublinhado' to="/informacoes/Contato">Contato</Link>
 
       </div>
 

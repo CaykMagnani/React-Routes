@@ -28,7 +28,6 @@ Siga estas etapas para executar o projeto em seu ambiente local:
 
 2. **Instalar Dependencias:**
     npm install
-    npm install react-dom
     npm install react-router-dom
     npm install @googlemaps/react-wrapper
 

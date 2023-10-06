@@ -1,16 +1,37 @@
 .mapContainer {
+  margin-left: 5%;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 75vh ;
+    width: 90%;
+    overflow: auto;
+    background-color: gray;
+    border: 5px solid black;
+    overflow: auto;
   }
   .mapFilho {
-    align-items: flex-end;
-    width: 60%; /* Tamanho desejado para o quadrado do mapa */
-    height: 80%; /* Tamanho desejado para o quadrado do mapa */
+    display: flex;
+    width: 53%;
+    height: 95%;
+    overflow: auto;
   }
-  .mapFilho2 {
-    flex: 1; /* Ocupa todo o espaço restante na largura */
+  .infos{
+    height: 94%;
+    width: 45%;
+    justify-content: flex-start;
+    overflow: auto;
+  }
+  .texto {
+    margin-left: 20%;
+    overflow: auto;
+  }
+  .caixaInfos{
+    color: yellow;
+    border: 2px dashed white;
+    height: 15%;
+    width: 80%;
+    margin-left: 10%;
   }
 
   

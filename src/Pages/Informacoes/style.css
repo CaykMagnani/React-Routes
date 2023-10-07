@@ -8,7 +8,6 @@
     overflow: auto;
     background-color: gray;
     border: 5px solid black;
-    overflow: auto;
   }
   .mapFilho {
     display: flex;
@@ -21,10 +20,12 @@
     width: 45%;
     justify-content: flex-start;
     overflow: auto;
+    word-wrap: break-word;
   }
   .texto {
     margin-left: 20%;
     overflow: auto;
+    word-wrap: break-word;
   }
   .caixaInfos{
     color: yellow;
@@ -32,6 +33,13 @@
     height: 15%;
     width: 80%;
     margin-left: 10%;
+    word-wrap: break-word;
+  }
+  .textoColorido{
+    margin-left: 20%;
+    overflow: auto;
+    word-wrap: break-word;
+    color: yellow;
   }
 
   

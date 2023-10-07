@@ -26,6 +26,9 @@ function Contato() {
           <p className="texto">Email: ecommerce@ecommerce.com</p>
           </div>
 
+          <h1 className="texto">Linha de Onibus:</h1>
+          <p className="textoColorido">109 (VILA Exemplar) - Ponto Rua Exemplo Da Silva</p>
+
           </div>
 
 

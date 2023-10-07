@@ -1,7 +1,7 @@
 function Home() {
   return (
     <div>
-      <p>Caguei na Home</p>
+      <p> na Home</p>
     </div>
   )
 }

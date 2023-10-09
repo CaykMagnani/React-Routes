@@ -1,8 +1,8 @@
 header {
     height: 7vh;
     width: 100%;
-    background-color: rgb(199, 199, 199);
-    color: black;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     align-content: space-between;
@@ -11,13 +11,13 @@ header {
 }
 
 header a {
-    color: white;
+    color: rgb(255, 255, 255);
     font-size: 20px;
     overflow-x: auto;
 }
 
 header a + a {
-    margin-left: 12%;
+    margin-left: 25%;
 }
 
 .linkSemSublinhado {
@@ -27,7 +27,7 @@ header a + a {
   .logo{
     margin-top: 8px;
     height: 90%;
-    width: 50%;
+    width: 35%;
     margin-left: 2%;
   }
   .logo img{

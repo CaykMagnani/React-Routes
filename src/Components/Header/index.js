@@ -11,8 +11,8 @@ function Header() {
 
       <div className='menu'>
 
-      <Link className='linkSemSublinhado' to="/Sobre">Sobre</Link>
       <Link className='linkSemSublinhado' to="/">Home</Link>
+      <Link className='linkSemSublinhado' to="/Sobre">Sobre</Link>
       <Link className='linkSemSublinhado' to="/informacoes/Contato">Contato</Link>
       <Link className='linkSemSublinhado' to="/Loja">Loja</Link>
 

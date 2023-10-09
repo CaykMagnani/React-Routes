@@ -1,7 +1,11 @@
+import CarrosselResponsivo from "../../Components/Carousel";
+
 function Home() {
   return (
     <div>
-      <p> na Home</p>
+      <>
+      <CarrosselResponsivo />
+      </>
     </div>
   )
 }

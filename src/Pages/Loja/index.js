@@ -1,5 +1,4 @@
 import './style.css';
-import Card from "../../Components/Cards"
 import CardMap from "../../Components/Cards/CardMap"
 
 

@@ -30,6 +30,7 @@ Siga estas etapas para executar o projeto em seu ambiente local:
     npm install
     npm install react-router-dom
     npm install @googlemaps/react-wrapper
+    npm install react-responsive-carousel
 
 3. **Iniciar**
     npm start

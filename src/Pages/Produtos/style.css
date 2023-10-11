@@ -1,0 +1,32 @@
+.paginaProduto {
+    margin: 3% auto; /* Centraliza horizontalmente */
+    background-color: rgb(255, 250, 243);
+    width: 94%;
+    max-width: 800px; /* Define uma largura máxima para evitar que a página fique muito larga */
+    padding: 20px; /* Espaçamento interno */
+    border: 1px solid #ccc; /* Adiciona uma borda */
+    border-radius: 10px; /* Borda arredondada */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
+}
+
+.paginaProduto img {
+    max-width: 100%; /* Garante que a imagem não ultrapasse o contêiner */
+    display: block; /* Remove margens indesejadas */
+    margin: 0 auto; /* Centraliza a imagem horizontalmente */
+}
+
+.titulo {
+    font-size: 24px; /* Tamanho da fonte do título */
+    font-weight: bold; /* Texto em negrito */
+    margin-top: 10px; /* Espaçamento superior */
+}
+
+.preco {
+    font-size: 35px; /* Tamanho da fonte do preço */
+    color: #FF5733; /* Cor do preço (exemplo) */
+}
+
+.descricao {
+    font-size: 16px; /* Tamanho da fonte da descrição */
+    margin-top: 10px; /* Espaçamento superior */
+}

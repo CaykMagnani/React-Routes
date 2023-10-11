@@ -6,6 +6,7 @@ function CardMap({ cardData }) {
   return (
 
     <div className="card-map">
+      
       {cardData.map((card, index) => (
         <Card key={index} title={card.title} price={card.price} image={card.image} />
       ))}
